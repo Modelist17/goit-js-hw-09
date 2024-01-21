@@ -33,3 +33,32 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* @font-face {
+  font-family: 'euclid';
+  src: url('chrome-extension://ebgofhigpedaepplnmglnedbfjemmpnh/static/fonts/EuclidCircularA-Light.otf')
+    format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'euclid';
+  src: url('chrome-extension://ebgofhigpedaepplnmglnedbfjemmpnh/static/fonts/EuclidCircularA-Regular.otf')
+    format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'euclid';
+  src: url('chrome-extension://ebgofhigpedaepplnmglnedbfjemmpnh/static/fonts/EuclidCircularA-Medium.otf')
+    format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'euclid';
+  src: url('chrome-extension://ebgofhigpedaepplnmglnedbfjemmpnh/static/fonts/EuclidCircularA-Bold.otf')
+    format('opentype');
+  font-weight: 600;
+  font-style: normal;
+} */
