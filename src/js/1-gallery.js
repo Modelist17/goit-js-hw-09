@@ -87,4 +87,4 @@ const lightbox = new SimpleLightbox(".gallery a", {
   captionDelay: 250, // Затримка для підписів в мілісекундах
 });
 
-// Примітка: SimpleLightbox автоматично обробляє відкриття, закриття та навігацію за допомогою клавіатури
+
