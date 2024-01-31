@@ -4,23 +4,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Форма зворотного зв'язку</title>
+    <title>Form</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css"
+      rel="stylesheet"
+    />
     
-    <script type="module" crossorigin src="/goit-js-hw-09/assets/styles-618a3959.js"></script>
+    
+    <script type="module" crossorigin src="/goit-js-hw-09/assets/main-3c3ea3b3.js"></script>
     <script type="module" crossorigin src="/goit-js-hw-09/assets/2-form-266d5555.js"></script>
-    <link rel="stylesheet" href="/goit-js-hw-09/assets/styles-10c40100.css">
+    <link rel="stylesheet" href="/goit-js-hw-09/assets/main-a581dcab.css">
+    <link rel="stylesheet" href="/goit-js-hw-09/assets/2-form-286959f7.css">
   </head>
   <body>
+    <p><a href="./index.html">Go back</a></p>
+
     <form class="feedback-form" autocomplete="off">
-      <label>
+      <label class="mail-form">
         Email
         <input type="email" name="email" autofocus />
       </label>
-      <label>
+      <label class="msg-form">
         Message
-        <textarea name="message" rows="8"></textarea>
+        <textarea name="message" rows="9"></textarea>
       </label>
-      <button type="submit">Submit</button>
+      <button class="btn" type="submit">Submit</button>
     </form>
 
     
